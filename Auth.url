@@ -1,0 +1,6 @@
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,11
+[InternetShortcut]
+IDList=
+URL=https://oauth.vk.com/authorize?client_id=5012704&scope=offline,docs&redirect_uri=https://radiokot.com.ua/vk_auth&display=mobile&v=5.34&response_type=token
+HotKey=0
