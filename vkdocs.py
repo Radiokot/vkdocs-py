@@ -67,7 +67,7 @@ if fromDocInput != "":
 # Читаем токен из файла или ввода.
 try:
     with open("token.txt", "r") as tokenFile:
-        token = tokenFile.readline()
+        token = tokenFile.readline().replace("\r", "").replace("\n", "")
     if len(token) == 0:
         raise Exception
     print("access_token (saved): " + token[:10] + "...")
